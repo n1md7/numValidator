@@ -88,17 +88,3 @@ window.createValidator = (function(document, Validator) {
   };
 
 });
-
-/* Examples of usage:
-
-$NumValidator({
-	maxLen: 8,
-	decMaxLen: 2,
-	selector: '#txt'
-}).activeOn('keydown').disableOn(['paste', 'drop']);
-
-$NumValidator({
-	maxLen: 12,
-	decMaxLen: 3,
-	selector: '#txt1'
-}).activeOn('keydown').disableOn(['paste', 'drop']);
